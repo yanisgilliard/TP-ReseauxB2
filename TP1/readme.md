@@ -29,10 +29,10 @@ Masque de sous réseau du réseau LAN :
  Adresse IP disponible : ``4096 ``
 
 ### ☀️ Hostname
-``
+````
 PS C:\Users\yanis> hostname
 yanis
-``
+````
 
 ### ☀️ Passerelle du réseau
 IP passerelle réseau :
@@ -259,3 +259,12 @@ Interface : 169.254.11.249 --- 0x18
   239.255.255.250       01-00-5e-7f-ff-fa     statique
   255.255.255.255       ff-ff-ff-ff-ff-ff     statique
 ````
+
+### ☀️ Capture ARP
+J'ai utilisé le filtre "ARP" 
+
+J'ai ultilsé le filtre "DNS"
+````
+PS C:\WINDOWS\system32> nslookup youtube.com
+````
+
