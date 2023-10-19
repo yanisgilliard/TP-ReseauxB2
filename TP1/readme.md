@@ -262,10 +262,11 @@ Interface : 169.254.11.249 --- 0x18
 
 ### ☀️ Capture ARP
 J'ai utilisé le filtre "ARP" 
-./captures/capture-arp.pcap
+
+./captures/arp.pcap
 
 J'ai ultilsé le filtre "DNS"
 ````
 PS C:\WINDOWS\system32> nslookup youtube.com
 ````
-
+J'ai utilisé le filtre "TCP"
