@@ -15,9 +15,22 @@ https://github.com/yanisgilliard/TP-ReseauxB2/blob/1e0004a29163da155e2d455433871
 
 🌞 **`bs_client_I1.py`**
 
+https://github.com/yanisgilliard/TP-ReseauxB2/blob/e98f1174341163c099e9afef0f17577f4c968f78/TP4/bs_client_l1.py
+
 
 🌞 **Commandes...**
-
+````
+[yanis@bs-server]$ python3 bs_server_I1.py 
+Meooooo !
+````
+````
+[yanis@bs-client]$ python3 bs_client_I1.py
+Meooooo !
+````
+````
+[yanis@bs-server ~]$ ss -tupnl | grep 13337
+tcp   LISTEN 0      1          10.1.1.10:13337      0.0.0.0:*    users:(("python3",pid=2083,fd=3))
+````
 
 ## 2. User friendly
 
