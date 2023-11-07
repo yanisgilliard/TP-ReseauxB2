@@ -36,9 +36,11 @@ tcp   LISTEN 0      1          10.1.1.10:13337      0.0.0.0:*    users:(("python
 
 🌞 **`bs_client_I2.py`**
 
+https://github.com/yanisgilliard/TP-ReseauxB2/blob/636217785c9e7e5dd119fba9cd9922549d076892/TP4/bs_client_I2.py
 
 🌞 **`bs_server_I2.py`**
 
+https://github.com/yanisgilliard/TP-ReseauxB2/blob/636217785c9e7e5dd119fba9cd9922549d076892/TP4/bs_server_I2.py
 
 ## 3. You say client I hear control
 
