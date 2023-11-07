@@ -11,7 +11,7 @@ Première partie pour mettre en place un environnement fonctionnel et deux progr
 
 🌞 **`bs_server_I1.py`**
 
-TP4/bs_server_l1.py
+https://github.com/yanisgilliard/TP-ReseauxB2/blob/1e0004a29163da155e2d455433871ab94d564cf4/TP4/bs_server_l1.py
 
 🌞 **`bs_client_I1.py`**
 
