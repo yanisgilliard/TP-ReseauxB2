@@ -44,17 +44,4 @@ https://github.com/yanisgilliard/TP-ReseauxB2/blob/636217785c9e7e5dd119fba9cd992
 
 ## 3. You say client I hear control
 
-On va ajouter un peu de contrôle pour éviter que notre client fasse nawak à l'utilisation du programme.
-
 🌞 **`bs_client_I3.py`**
-
-- vérifier que...
-  - le client saisit bien une string
-    - utilisez la méthode native `type()` pour vérifier que c'est une string
-  - que la string saisie par le client contient obligatoirement soit "waf" soit "meo"
-    - utilisez [**une expression régulière**](https://www.programiz.com/python-programming/regex) (signalez-le moi s'il serait bon de faire un cours sur cette notion)
-- sinon lever une erreur avec `raise`
-  - choisissez avec pertinence l'erreur à lever dans les deux cas (s'il saisit autre chose qu'une string, ou si ça contient aucun des deux mots)
-  - y'a une liste des exceptions natives (choisissez-en une donc) tout en bas du [cours sur la gestion d'erreur](../../../../cours/dev/error_handling/README.md)
-
-> On poussera le contrôle plus loin plus tard.
