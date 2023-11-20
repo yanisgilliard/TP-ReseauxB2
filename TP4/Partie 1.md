@@ -45,3 +45,5 @@ https://github.com/yanisgilliard/TP-ReseauxB2/blob/636217785c9e7e5dd119fba9cd992
 ## 3. You say client I hear control
 
 🌞 **`bs_client_I3.py`**
+
+https://github.com/yanisgilliard/TP-ReseauxB2/blob/40195c597d8ecc44b644b79573a5515efa0b21b8/TP4/bs_client_I3.py
