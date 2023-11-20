@@ -21,28 +21,9 @@
 
 ### B. Logs client
 
-Les logs du client, c'est que dans un fichier. En effet, que ce soit une app console ou graphique, le client on veut lui montrer que ce qui est directement lié à SON utilisation de l'application. Et pas le reste.   
-Donc on lui jette pas les logs et des vilaines erreurs au visage, ni 14000 messages informatifs.
-
-Je vous laisse choisir l'emplacement du fichier de log de façon **pertinente**.
-
 🌞 **`bs_client_II2B.py`**
 
-- ce qui doit générer une ligne de log :
-  - `INFO` connexion réussie à un serveur
-    - `Connexion réussie à <IP>:<PORT>.`
-  - `INFO` message envoyé par le client
-    - `Message envoyé au serveur <IP_SERVER> : <MESSAGE>.`
-  - `INFO` message reçu du serveur
-    - `Réponse reçue du serveur <IP_SERVER> : <MESSAGE>.`
-  - `ERROR` connexion au serveur échouée
-    - pour le tester, il suffit de lancer le client alors que le serveur est éteint !
-    - le message : `Impossible de se connecter au serveur <IP_SERVER> sur le port <PORT>.`
-- en console
-  - affiche juste `ERROR Impossible de se connecter au serveur <IP_SERVER> sur le port <PORT>.` en rouge quand ça fail (pas de timestamp là)
-  - les messages de niveau INFO ne sont pas visibles dans la console du client
-- dans un fichier
-  - `<DOSSIER_DE_LOG>/bs_client.log`
+[Fichier]()
 
 ### C. NOTE IMPORTANTE
 
