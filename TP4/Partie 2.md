@@ -11,6 +11,8 @@
 
 🌞 **`bs_server_II1.py`**
 
+[Fichier]
+
 ## 2. Logs
 
 **Allô les dévs ? Ici it4 l'admin qui vous parle. Ils sont où les ptain de logs de votre application bowdel.**
