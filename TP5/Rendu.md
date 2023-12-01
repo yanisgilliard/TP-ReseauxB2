@@ -41,10 +41,14 @@
 
 🌞 **`tp5_web_serv_1.py` un serveur HTTP** super basique
 
+[Fichier](https://github.com/yanisgilliard/TP-ReseauxB2/blob/5f5ee124e1d24df19c35ab0d88370a27727cdd4a/TP5/tp5_web_serv_1.py)
+
 
 ## 2. Client Web
 
 🌞 **`tp5_web_client_2.py` un client HTTP** super basique
+
+[Fichier](https://github.com/yanisgilliard/TP-ReseauxB2/blob/5f5ee124e1d24df19c35ab0d88370a27727cdd4a/TP5/tp5_web_client_2.py)
 
 
 ## 3. Délivrer des pages web
