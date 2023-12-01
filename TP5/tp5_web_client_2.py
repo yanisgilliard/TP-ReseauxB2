@@ -6,7 +6,7 @@ def send_get_request(url):
         print(f"Statut de la réponse : {response.status_code}")
         print("Contenu de la réponse :")
         print(response.text)
-    except requests.exceptions.RequestExecption as e:
+    except requests.exceptions.RequestException as e:
         print(f"Erreur lors de la requête : {e}")
 
 if __name__ == "__main__":
