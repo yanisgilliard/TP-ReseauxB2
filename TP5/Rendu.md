@@ -24,3 +24,39 @@
 🌞 **`tp5_enc_server_2.py`**
 
 [Fichier](https://github.com/yanisgilliard/TP-ReseauxB2/blob/5111b63e7ad991cdf1ff8b755f609b69b4635889/TP5/tp5_enc_server_2.py)
+
+
+# III. Serveur Web HTTP
+
+- [III. Serveur Web HTTP](#iii-serveur-web-http)
+  - [0. Ptite intro HTTP](#0-ptite-intro-http)
+  - [1. Serveur Web](#1-serveur-web)
+  - [2. Client Web](#2-client-web)
+  - [3. Délivrer des pages web](#3-délivrer-des-pages-web)
+  - [4. Quelques logs](#4-quelques-logs)
+  - [5. File download](#5-file-download)
+
+
+## 1. Serveur Web
+
+🌞 **`tp5_web_serv_1.py` un serveur HTTP** super basique
+
+
+## 2. Client Web
+
+🌞 **`tp5_web_client_2.py` un client HTTP** super basique
+
+
+## 3. Délivrer des pages web
+
+🌞 **`tp5_web_serv_3.py`**
+
+
+## 4. Quelques logs
+
+🌞 **`tp5_web_serv_4.py`**
+
+
+## 5. File download
+
+🌞 **`tp5_web_serv_5.py`**
