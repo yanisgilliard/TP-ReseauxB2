@@ -2,6 +2,7 @@ import socket
 import sys
 from time import sleep
 
+
 def listen(ip, port=13337):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind((ip, port))
@@ -23,8 +24,9 @@ def listen(ip, port=13337):
             s.close()
         except BrokenPipeError:
             break
-    
-if __name__ == '__main__':
+
+
+if __name__ == "__main__":
     while True:
-        listen('localhost')
+        listen("localhost")
         sleep(1)

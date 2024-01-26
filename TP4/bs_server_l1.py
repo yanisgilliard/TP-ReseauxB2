@@ -1,6 +1,7 @@
 import socket
 import sys
 
+
 def listen(ip, port=13337):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind((ip, port))
@@ -9,7 +10,7 @@ def listen(ip, port=13337):
     while True:
         try:
             response = conn.recv(1024).decode()
-            if response == 'Meooooo !':
+            if response == "Meooooo !":
                 print(response)
                 sys.stdout.flush()
                 conn.send("Hi mate !".encode())
@@ -17,6 +18,7 @@ def listen(ip, port=13337):
             break
     conn.close()
     s.close()
-    
-if __name__ == '__main__':
-    listen('localhost')
+
+
+if __name__ == "__main__":
+    listen("localhost")

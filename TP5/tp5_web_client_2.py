@@ -1,4 +1,5 @@
-import requests 
+import requests
+
 
 def send_get_request(url):
     try:
@@ -9,6 +10,7 @@ def send_get_request(url):
     except requests.exceptions.RequestException as e:
         print(f"Erreur lors de la requête : {e}")
 
+
 if __name__ == "__main__":
     url = input("Entrez l'url pour envoyer une requête GET :")
-    send_get_request(url) 
+    send_get_request(url)

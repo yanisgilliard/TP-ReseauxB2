@@ -3,6 +3,7 @@ import regex
 
 from src.logs import Logger
 
+
 def connect(ip, port=13337):
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -19,11 +20,14 @@ def connect(ip, port=13337):
             else:
                 raise ValueError("Le message doit être obligatoirement 'meo' ou 'waf'.")
     except socket.error:
-        raise ConnectionError(f"Impossible de se connecter au serveur {ip} sur le port {port}")
+        raise ConnectionError(
+            f"Impossible de se connecter au serveur {ip} sur le port {port}"
+        )
     except Exception as e:
         logger.critical(f"Une erreur s'est produite: {e}")
         exit(2)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     logger = Logger("./logs/bs_client.log", False)
-    connect('10.1.1.10')
+    connect("10.1.1.10")

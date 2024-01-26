@@ -1,6 +1,7 @@
 import logging
 import os
 
+
 class CustomFormatter(logging.Formatter):
 
     grey = "\x1b[38;20m"
@@ -16,7 +17,7 @@ class CustomFormatter(logging.Formatter):
         logging.INFO: white + format + reset,
         logging.WARNING: yellow + format + reset,
         logging.ERROR: red + format + reset,
-        logging.CRITICAL: bold_red + format + reset
+        logging.CRITICAL: bold_red + format + reset,
     }
 
     def format(self, record):
@@ -26,7 +27,7 @@ class CustomFormatter(logging.Formatter):
 
 
 class Logger:
-    def __init__(self,filePath="TP4/logs.log", withConsole=True):
+    def __init__(self, filePath="TP4/logs.log", withConsole=True):
         if not os.path.exists(os.path.dirname(filePath)):
             os.makedirs(os.path.dirname(filePath))
         self.logger = logging.getLogger(__name__)
@@ -42,26 +43,26 @@ class Logger:
             console_handler.setFormatter(formatter)
             self.logger.addHandler(console_handler)
 
-    def emergency(self,message):
+    def emergency(self, message):
         self.logger.critical(message)
 
-    def alert(self,message):
+    def alert(self, message):
         self.logger.critical(message)
 
-    def critical(self,message):
+    def critical(self, message):
         self.logger.critical(message)
 
-    def error(self,message):
+    def error(self, message):
         self.logger.error(message)
 
-    def warning(self,message):
+    def warning(self, message):
         self.logger.warning(message)
 
-    def notice(self,message):
+    def notice(self, message):
         self.logger.info(message)
 
-    def info(self,message):
+    def info(self, message):
         self.logger.info(message)
 
-    def debug(self,message):
+    def debug(self, message):
         self.logger.debug(message)

@@ -1,6 +1,7 @@
 import socket
 import regex
 
+
 def connect(ip, port=13337):
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -19,5 +20,6 @@ def connect(ip, port=13337):
     except Exception as e:
         print(f"Une erreur s'est produite: {e}")
 
-if __name__ == '__main__':
-    connect('10.1.1.10')
+
+if __name__ == "__main__":
+    connect("10.1.1.10")
